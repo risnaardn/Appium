@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f01702a5-a6c0-43d8-b355-46717aaf1d47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/appium/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/appium/pages/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/juaracoding/appium/TestCalculator.java" afterDir="false" />
+    <list default="true" id="f01702a5-a6c0-43d8-b355-46717aaf1d47" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/appium/pages/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/appium/pages/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/juaracoding/appium/TestCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/juaracoding/appium/TestCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +33,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager" selected="TestNG.TestCalculator">
+    <configuration name="TestCalculator" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JCAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juaracoding.appium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.juaracoding.appium" />
+      <option name="MAIN_CLASS_NAME" value="com.juaracoding.appium.TestCalculator" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCalculator.testAdd" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JCAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juaracoding.appium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.juaracoding.appium" />
+      <option name="MAIN_CLASS_NAME" value="com.juaracoding.appium.TestCalculator" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestCalculator" />
+        <item itemvalue="TestNG.TestCalculator.testAdd" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,6 +91,21 @@
       <option name="presentableId" value="Default" />
       <updated>1666357938633</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1666364766441</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666364766441</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1666364775242</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666364775242</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -65,5 +118,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>

@@ -18,7 +18,13 @@ public class Calculator {
     By btnTambah = By.id("com.android.calculator2:id/op_add");
     By btnSamaDengan = By.id("com.android.calculator2:id/eq");
     By hasil = By.id("com.android.calculator2:id/result");
-    /* web: xpath = //taghtml[contains(@attr, value)] */
+
+    By btnTiga = By.id("com.android.calculator2:id/digit_3");
+
+    By btnEmpat = By.id("com.android.calculator2:id/digit_4");
+
+    By btnKali = By.id("com.android.calculator2:id/op_mul");
+
 
     //Method
     public void calcAdd() {
@@ -26,6 +32,14 @@ public class Calculator {
         driver.findElement(btnTambah).click();
         driver.findElement(btnDua).click();
         driver.findElement(btnSamaDengan).click();
+    }
+
+    public void calcPerkalian(){
+        driver.findElement(btnTiga).click();
+        driver.findElement(btnKali).click();
+        driver.findElement(btnEmpat).click();
+        driver.findElement(btnSamaDengan).click();
+
     }
 
     //
